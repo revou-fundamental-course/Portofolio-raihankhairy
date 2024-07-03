@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css"><!--Ini Konektor css-->       
+</head>
+<!--Ini Body-->
+<body>
+<!-- Ini Header Nav-->
+    <header id="home">
+        <img src="../assets/1.jpg" alt="Logo">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#our-profile">Our Profile</a>
+            <a href="#logo">Content</a>
+            <a href="#message-us">Message Us</a>
+        </nav>
+<!--Akhir Header Nav-->
+    </header>
+<hr /><!--Ini Garis-->
+<!--Ini Main-->
+    <main>
+<!--Ini Buat Selamat Datang-->
+    <section class="home">
+        <header>
+            <h1>Hi <span id="name">Harfi</span>, Welcome To Website</h1>
+        </header>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="../assets/slide4.jpg" alt="Image 1">
+            </div>
+        
+            <div class="mySlides">
+                <img src="../assets/slide5.jpg" alt="Image 2">
+            </div>
+        
+            <div class="mySlides">
+                <img src="../assets/slide6.jpg" alt="Image 3">
+            </div>
+        </div>
+        <br> 
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <div class="container">
+            <h2>Walpaper Computer</h2>
+            <p>Computer wallpapers not only serve as screen decorations, but also bring various benefits. First, wallpapers can improve the aesthetics of a computer's appearance, making it more attractive and personalized to the user's taste. Secondly, wallpapers can help improve focus and productivity. For example, using wallpapers with soothing nature images can help relieve stress and improve concentration while working. Thirdly, wallpapers can also be a means of education and information. Users can choose wallpapers that feature educational images, such as a world map or periodic table, to help them learn and remember information.</p>
+        </div>
+    </section>
+<!--Akhir Selamat Datang-->
+<hr />
+<!--Ini Our Profile-->
+<section id="our-profile">
+    <Header>
+        <h1>Our Profile</h1>
+    </Header>
+        <article class="profile-content">
+            <div class="profile-item">
+                <div class="profile-icon profile-1"></div>
+                <p>Profile 1</p>
+            </div>
+
+            <div class="profile-item">
+                <div class="profile-icon profile-2"></div>
+                <p>Profile 2</p>
+            </div>
+
+            <div class="profile-item">
+                <div class="profile-icon profile-3"></div>
+                <p>Profile 3</p>
+            </div>
+        </article>
+</section>
+<!--Akhir Our Profile-->
+<hr />
+<!--Ini Content-->
+<section id="logo">
+        <header>
+            <h1>Content</h1>
+        </header>
+    <article>
+        <section class="carousel">
+            <div class="slides">
+                <div class="slide"><img src="../assets/slide1.jpg" alt="walpaper1"></div>
+                <div class="slide"><img src="../assets/slide2.jpg" alt="walpaper2"></div>
+                <div class="slide"><img src="../assets/slide3.jpg" alt="walpaper3"></div>
+            </div>
+        </section>
+    </article>
+</section>
+<!--Akhir Content-->
+<hr />      
+<!--Ini Massage Us Content-->
+<section class="container" id="message-us">
+    <h1>Message Us</h1>
+        <form id="messageForm">
+        <table>
+            <tr>
+                <td><label for="nama">Nama:</label></td>
+                <td><input type="text" placeholder="Nama" name="nama" id="nama"></td>
+                <div id="namaError" class="error"></div>
+            </tr>
+            <tr>
+                <td><label for="tanggal_lahir">Tanggal Lahir:</label></td>
+                <td><input type="date" placeholder="Tanggal Lahir" name="tanggal_lahir" id="tanggal_lahir"></td>
+                <div id="tanggalLahirError" class="error"></div>
+            </tr>
+            <tr>
+                <td><label>Jenis Kelamin:</label></td>
+                <td><input type="radio" name="jenis_kelamin" value="Laki-Laki" id="laki_laki"> Laki-Laki
+                <input type="radio" name="jenis_kelamin" value="Perempuan" id="perempuan"> Perempuan</td>
+                <div id="jenisKelaminError" class="error"></div>
+            </tr>
+            <tr>
+                <td><label for="pesan">Pesan:</label></td>
+                <td><textarea placeholder="Pesan" name="pesan" id="pesan"></textarea></td>
+                <div id="pesanError" class="error"></div>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+        </form>
+    <div class="output-container" id="output">
+        <p>Current time: <span id="current-time"></span></p>
+        <p>Nama: <span id="output-nama"></span></p>
+        <p>Tanggal Lahir: <span id="output-tanggal-lahir"></span></p>
+        <p>Jenis Kelamin: <span id="output-jenis-kelamin"></span></p>
+        <p>Pesan: <span id="output-pesan"></span></p>
+    </div>
+</section>
+<!--Akhir Massage Us Content-->
+<hr />
+<!-- Ini Footer-->
+       <footer>
+        &copy; 2024. Created By Khairy
+       </footer>
+<!--Akhir Footer-->
+    <script src="js/script.js"></script><!--Ini Konektor javascript-->
+    </main>
+<!--Akhir Main-->
+</body>
+<!--Akhir Body-->
+</html>
