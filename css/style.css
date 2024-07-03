@@ -1,0 +1,280 @@
+/* Ini css */
+
+/* Ini Main*/
+.main {
+    padding: 32px;
+}
+
+
+
+/* ini Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    box-sizing: border-box;
+}
+
+
+
+/* Ini UntUk Gambar Header */
+header img {
+    height: 50px;
+    width: 50px;
+   /* Ini Untuk Icon Gambar */
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: auto;
+
+}
+
+
+
+/* Ini Untuk Bagian Header (Selain Gambar) */
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header img {
+    height: 50px;
+    margin-right: 10px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+nav a {
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.home article {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* Ini Untuk Autoslide */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+img {
+    width: 100%;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+
+
+
+/* Ini Untuk Tulisan Bawah Autoslide *//
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+
+/* Ini Untuk Our Profil */
+.banner-container img {
+    width: 95%; /* Make the image fill the container width */
+    height: 350px; /* Maintain the image's aspect ratio */
+    display: block; /* Make the image an inline-block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.banner-container {
+    height: auto;
+    width: 100%;
+
+    padding: 0px;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item {
+    text-align: center;  
+}
+
+.profile-icon {
+    height: 100px;
+    width: 100px;
+     /* for image icon */
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-1 {
+    background-image: url(../assets/1.jpg);
+}
+
+.profile-2 {
+    background-image: url(../assets/2.jpg);
+}
+
+.profile-3 {
+    background-image: url(../assets/3.jpg);
+}
+
+
+
+/* Ini Autoslide Content */
+.carousel {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0,5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+
+
+/* Ini Buat Output */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-container, .output-container {
+    width: 100%;
+    max-width: 380px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+
+/* Ini Buat Tombol */
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+.output-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.output-container p {
+    margin: 5px 0;
+}
+.output-container span {
+    font-weight: bold;
+}
+  
+@media (max-width: 600px) {
+    .form-container, .output-container {
+        max-width: 100%;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}  
+
+
+
+/* ini footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
